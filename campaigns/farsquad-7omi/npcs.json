@@ -35,6 +35,23 @@
         }
       ],
       "source": "srd"
+    },
+    {
+      "npcId": "mc1i59tymoul55ye",
+      "name": "Ochre Jelly",
+      "type": "ooze",
+      "cr": "2",
+      "hp": 45,
+      "ac": 8,
+      "initiative": -2,
+      "category": "standard",
+      "actions": [
+        {
+          "name": "Pseudopod",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 3 (1d6) acid damage."
+        }
+      ],
+      "source": "srd"
     }
   ]
 }
