@@ -1,0 +1,29 @@
+{
+  "players": [
+    {
+      "github": "teggimon",
+      "characters": [
+        {
+          "characterId": "12b604eb-3c6f-47d9-a891-692c14ab4a50",
+          "name": "boob1",
+          "class": "boob hunter 6",
+          "level": 6,
+          "hpCurrent": 0,
+          "hpMax": 10,
+          "active": true,
+          "inCampaign": true
+        },
+        {
+          "characterId": "60a127de-fba1-4f71-bae9-5af939ec2bb1",
+          "name": "gg",
+          "class": "Cleric 1",
+          "level": 1,
+          "hpCurrent": 8,
+          "hpMax": 8,
+          "active": true,
+          "inCampaign": true
+        }
+      ]
+    }
+  ]
+}
