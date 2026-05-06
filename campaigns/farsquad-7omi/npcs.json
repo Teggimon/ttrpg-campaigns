@@ -1,0 +1,19 @@
+{
+  "npcs": [
+    {
+      "npcId": "yl0vzhfjmou0f5ey",
+      "name": "ff",
+      "type": "Humanoid",
+      "cr": "",
+      "hp": null,
+      "ac": null,
+      "initiative": null,
+      "speed": "30ft",
+      "hitDie": "2d8+4",
+      "notes": "Knife 2d8+4 slashing",
+      "category": "boss",
+      "actions": [],
+      "source": "custom"
+    }
+  ]
+}
