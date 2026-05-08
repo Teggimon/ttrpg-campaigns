@@ -24,6 +24,31 @@
           "inCampaign": true
         }
       ]
+    },
+    {
+      "github": "Teggimon",
+      "characters": [
+        {
+          "characterId": "a643924f-e4ca-40a1-b73a-a2fc97e4bffd",
+          "name": "Risa",
+          "class": "Cleric 2",
+          "level": 2,
+          "hpCurrent": 46,
+          "hpMax": 46,
+          "active": true,
+          "inCampaign": true
+        },
+        {
+          "characterId": "153bc352-5736-4ee2-8fc7-b03ce2836c23",
+          "name": "rrr",
+          "class": "Cleric 1",
+          "level": 1,
+          "hpCurrent": 9,
+          "hpMax": 9,
+          "active": true,
+          "inCampaign": true
+        }
+      ]
     }
   ]
 }
