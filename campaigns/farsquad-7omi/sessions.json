@@ -6,13 +6,23 @@
       "number": 1,
       "date": "2026-05-06T10:41:17.830Z",
       "status": "live",
-      "duration": 7,
+      "duration": 11,
       "players": [],
       "encounters": [
         {
           "encounterId": "dwm1kycjmotxgnzb",
           "name": "Encounter 1",
           "number": 1,
+          "status": "pending",
+          "rounds": 0,
+          "enemyCount": 0,
+          "combatants": [],
+          "outcome": null
+        },
+        {
+          "encounterId": "7qkmb1rfmoydvfy5",
+          "name": "Encounter 2",
+          "number": 2,
           "status": "pending",
           "rounds": 0,
           "enemyCount": 0,
