@@ -3,7 +3,7 @@
     {
       "id": "world",
       "title": "World & Lore",
-      "content": "",
+      "content": "b",
       "locked": true
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": "dm",
       "title": "DM Notes (Private)",
-      "content": "yes very priv",
+      "content": "yes very private",
       "locked": true,
       "private": true
     }
