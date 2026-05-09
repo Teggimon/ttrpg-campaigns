@@ -9,13 +9,13 @@
     {
       "id": "plot",
       "title": "Plot Threads",
-      "content": "this plot has no ",
+      "content": "this plot has no thread",
       "locked": true
     },
     {
       "id": "dm",
       "title": "DM Notes (Private)",
-      "content": "",
+      "content": "y",
       "locked": true,
       "private": true
     }
