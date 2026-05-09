@@ -1,0 +1,23 @@
+{
+  "sections": [
+    {
+      "id": "world",
+      "title": "World & Lore",
+      "content": "",
+      "locked": true
+    },
+    {
+      "id": "plot",
+      "title": "Plot Threads",
+      "content": "t",
+      "locked": true
+    },
+    {
+      "id": "dm",
+      "title": "DM Notes (Private)",
+      "content": "",
+      "locked": true,
+      "private": true
+    }
+  ]
+}
