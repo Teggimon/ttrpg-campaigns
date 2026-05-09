@@ -220,7 +220,7 @@
     {
       "encounterId": "7l3j5nwqmoyee30z",
       "name": "Encounter 09/05/2026",
-      "defeated": true,
+      "defeated": false,
       "status": "prepared",
       "enemyCount": 1,
       "groups": [
@@ -261,12 +261,12 @@
           }
         }
       ],
-      "updatedAt": "2026-05-09T14:21:40.487Z"
+      "updatedAt": "2026-05-09T14:21:41.604Z"
     },
     {
       "encounterId": "53lputasmoyej4ei",
       "name": "all",
-      "defeated": true,
+      "defeated": false,
       "status": "prepared",
       "enemyCount": 3,
       "groups": [
@@ -374,7 +374,7 @@
           }
         }
       ],
-      "updatedAt": "2026-05-09T14:21:38.272Z"
+      "updatedAt": "2026-05-09T14:21:43.655Z"
     }
   ]
 }
