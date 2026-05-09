@@ -13,27 +13,27 @@
           "encounterId": "mcmavon0moyic9bd",
           "name": "rollhp",
           "number": 1,
-          "status": "live",
-          "rounds": 1,
+          "status": "done",
+          "rounds": 2,
           "enemyCount": 7,
           "combatants": [
             {
-              "id": "8tqlycitmoyic9bd",
+              "id": "svax7ezbmoyic9bd",
               "npcId": "hctjogy7moul4tv7",
-              "instanceLabel": "A",
+              "instanceLabel": "F",
               "type": "enemy",
-              "name": "Goblin A",
+              "name": "Goblin F",
               "baseName": "Goblin",
               "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
-              "hp": 7,
-              "hpMax": 7,
+              "hp": 0,
+              "hpMax": 8,
               "initiativeMod": 2,
               "ac": 15,
               "attackBonus": null,
               "saveDC": null,
               "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
               "conditions": [],
-              "downed": false,
+              "downed": true,
               "actions": [
                 {
                   "name": "Scimitar",
@@ -52,81 +52,8 @@
               },
               "hpMode": "roll",
               "hpValue": 7,
-              "hpFormula": ""
-            },
-            {
-              "id": "j3g3wdunmoyic9bd",
-              "npcId": "hctjogy7moul4tv7",
-              "instanceLabel": "B",
-              "type": "enemy",
-              "name": "Goblin B",
-              "baseName": "Goblin",
-              "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
-              "hp": 7,
-              "hpMax": 7,
-              "initiativeMod": 2,
-              "ac": 15,
-              "attackBonus": null,
-              "saveDC": null,
-              "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
-              "conditions": [],
-              "downed": false,
-              "actions": [
-                {
-                  "name": "Scimitar",
-                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
-                },
-                {
-                  "name": "Shortbow",
-                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                }
-              ],
-              "traits": [],
-              "sourceNpc": {
-                "name": "Goblin",
-                "category": "standard",
-                "type": "humanoid"
-              },
-              "hpMode": "roll",
-              "hpValue": 7,
-              "hpFormula": ""
-            },
-            {
-              "id": "xt7homwpmoyic9bd",
-              "npcId": "hctjogy7moul4tv7",
-              "instanceLabel": "C",
-              "type": "enemy",
-              "name": "Goblin C",
-              "baseName": "Goblin",
-              "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
-              "hp": 7,
-              "hpMax": 7,
-              "initiativeMod": 2,
-              "ac": 15,
-              "attackBonus": null,
-              "saveDC": null,
-              "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
-              "conditions": [],
-              "downed": false,
-              "actions": [
-                {
-                  "name": "Scimitar",
-                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
-                },
-                {
-                  "name": "Shortbow",
-                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                }
-              ],
-              "traits": [],
-              "sourceNpc": {
-                "name": "Goblin",
-                "category": "standard",
-                "type": "humanoid"
-              },
-              "hpMode": "roll",
-              "hpValue": 7,
-              "hpFormula": ""
+              "hpFormula": "2d6",
+              "initiative": 20
             },
             {
               "id": "n842mefomoyic9bd",
@@ -136,15 +63,15 @@
               "name": "Goblin D",
               "baseName": "Goblin",
               "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
-              "hp": 7,
-              "hpMax": 7,
+              "hp": 0,
+              "hpMax": 4,
               "initiativeMod": 2,
               "ac": 15,
               "attackBonus": null,
               "saveDC": null,
               "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
               "conditions": [],
-              "downed": false,
+              "downed": true,
               "actions": [
                 {
                   "name": "Scimitar",
@@ -163,7 +90,72 @@
               },
               "hpMode": "roll",
               "hpValue": 7,
-              "hpFormula": ""
+              "hpFormula": "2d6",
+              "initiative": 18
+            },
+            {
+              "id": "60a127de-fba1-4f71-bae9-5af939ec2bb1",
+              "type": "player",
+              "name": "gg",
+              "emoji": "⚔️",
+              "hp": 8,
+              "hpMax": 8,
+              "initiative": 17,
+              "initiativeMod": 0,
+              "ac": 10,
+              "conditions": [],
+              "downed": false
+            },
+            {
+              "id": "j3g3wdunmoyic9bd",
+              "npcId": "hctjogy7moul4tv7",
+              "instanceLabel": "B",
+              "type": "enemy",
+              "name": "Goblin B",
+              "baseName": "Goblin",
+              "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
+              "hp": 0,
+              "hpMax": 9,
+              "initiativeMod": 2,
+              "ac": 15,
+              "attackBonus": null,
+              "saveDC": null,
+              "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
+              "conditions": [],
+              "downed": true,
+              "actions": [
+                {
+                  "name": "Scimitar",
+                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+                },
+                {
+                  "name": "Shortbow",
+                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                }
+              ],
+              "traits": [],
+              "sourceNpc": {
+                "name": "Goblin",
+                "category": "standard",
+                "type": "humanoid"
+              },
+              "hpMode": "roll",
+              "hpValue": 7,
+              "hpFormula": "2d6",
+              "initiative": 17
+            },
+            {
+              "id": "a643924f-e4ca-40a1-b73a-a2fc97e4bffd",
+              "type": "player",
+              "name": "Risa",
+              "emoji": "⚔️",
+              "hp": 46,
+              "hpMax": 46,
+              "initiative": 16,
+              "initiativeMod": 0,
+              "ac": 10,
+              "conditions": [],
+              "downed": false
             },
             {
               "id": "kbcqwuw9moyic9bd",
@@ -173,7 +165,7 @@
               "name": "Goblin E",
               "baseName": "Goblin",
               "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
-              "hp": 7,
+              "hp": 0,
               "hpMax": 7,
               "initiativeMod": 2,
               "ac": 15,
@@ -181,7 +173,7 @@
               "saveDC": null,
               "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
               "conditions": [],
-              "downed": false,
+              "downed": true,
               "actions": [
                 {
                   "name": "Scimitar",
@@ -200,17 +192,18 @@
               },
               "hpMode": "roll",
               "hpValue": 7,
-              "hpFormula": ""
+              "hpFormula": "2d6",
+              "initiative": 15
             },
             {
-              "id": "svax7ezbmoyic9bd",
+              "id": "8tqlycitmoyic9bd",
               "npcId": "hctjogy7moul4tv7",
-              "instanceLabel": "F",
+              "instanceLabel": "A",
               "type": "enemy",
-              "name": "Goblin F",
+              "name": "Goblin A",
               "baseName": "Goblin",
               "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
-              "hp": 7,
+              "hp": 0,
               "hpMax": 7,
               "initiativeMod": 2,
               "ac": 15,
@@ -218,7 +211,7 @@
               "saveDC": null,
               "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
               "conditions": [],
-              "downed": false,
+              "downed": true,
               "actions": [
                 {
                   "name": "Scimitar",
@@ -237,7 +230,72 @@
               },
               "hpMode": "roll",
               "hpValue": 7,
-              "hpFormula": ""
+              "hpFormula": "2d6",
+              "initiative": 14
+            },
+            {
+              "id": "12b604eb-3c6f-47d9-a891-692c14ab4a50",
+              "type": "player",
+              "name": "boob1",
+              "emoji": "⚔️",
+              "hp": 0,
+              "hpMax": 10,
+              "initiative": 12,
+              "initiativeMod": 0,
+              "ac": 10,
+              "conditions": [],
+              "downed": false
+            },
+            {
+              "id": "153bc352-5736-4ee2-8fc7-b03ce2836c23",
+              "type": "player",
+              "name": "rrr",
+              "emoji": "⚔️",
+              "hp": 9,
+              "hpMax": 9,
+              "initiative": 10,
+              "initiativeMod": 0,
+              "ac": 10,
+              "conditions": [],
+              "downed": false
+            },
+            {
+              "id": "xt7homwpmoyic9bd",
+              "npcId": "hctjogy7moul4tv7",
+              "instanceLabel": "C",
+              "type": "enemy",
+              "name": "Goblin C",
+              "baseName": "Goblin",
+              "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
+              "hp": 0,
+              "hpMax": 8,
+              "initiativeMod": 2,
+              "ac": 15,
+              "attackBonus": null,
+              "saveDC": null,
+              "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
+              "conditions": [],
+              "downed": true,
+              "actions": [
+                {
+                  "name": "Scimitar",
+                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+                },
+                {
+                  "name": "Shortbow",
+                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                }
+              ],
+              "traits": [],
+              "sourceNpc": {
+                "name": "Goblin",
+                "category": "standard",
+                "type": "humanoid"
+              },
+              "hpMode": "roll",
+              "hpValue": 7,
+              "hpFormula": "2d6",
+              "initiative": 7
             },
             {
               "id": "5b8a198jmoyic9bd",
@@ -247,15 +305,15 @@
               "name": "Goblin G",
               "baseName": "Goblin",
               "emoji": "ÃÂÃÂ°ÃÂÃÂÃÂÃÂÃÂÃÂº",
-              "hp": 7,
-              "hpMax": 7,
+              "hp": 0,
+              "hpMax": 10,
               "initiativeMod": 2,
               "ac": 15,
               "attackBonus": null,
               "saveDC": null,
               "cr": "ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¼",
               "conditions": [],
-              "downed": false,
+              "downed": true,
               "actions": [
                 {
                   "name": "Scimitar",
@@ -274,12 +332,13 @@
               },
               "hpMode": "roll",
               "hpValue": 7,
-              "hpFormula": ""
+              "hpFormula": "2d6",
+              "initiative": 7
             }
           ],
           "preparedEncounterId": "bfbubr5qmoyibul1",
-          "defeated": false,
-          "outcome": null
+          "defeated": true,
+          "outcome": "victory"
         }
       ]
     }
