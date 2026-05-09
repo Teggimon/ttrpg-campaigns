@@ -3,7 +3,7 @@
     {
       "encounterId": "meq2by5gmoyec742",
       "name": "Enouncter ff gob",
-      "defeated": true,
+      "defeated": false,
       "status": "prepared",
       "enemyCount": 6,
       "groups": [
@@ -213,14 +213,14 @@
           }
         }
       ],
-      "updatedAt": "2026-05-09T14:20:53.182Z",
+      "updatedAt": "2026-05-09T14:21:45.455Z",
       "lastOutcome": "victory",
       "lastRunAt": "2026-05-09T14:20:53.182Z"
     },
     {
       "encounterId": "7l3j5nwqmoyee30z",
       "name": "Encounter 09/05/2026",
-      "defeated": false,
+      "defeated": true,
       "status": "prepared",
       "enemyCount": 1,
       "groups": [
@@ -261,7 +261,7 @@
           }
         }
       ],
-      "updatedAt": "2026-05-09T14:21:41.604Z"
+      "updatedAt": "2026-05-09T14:21:44.721Z"
     },
     {
       "encounterId": "53lputasmoyej4ei",
