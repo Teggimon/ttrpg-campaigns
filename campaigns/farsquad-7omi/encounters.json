@@ -2,7 +2,7 @@
   "encounters": [
     {
       "encounterId": "meq2by5gmoyec742",
-      "name": "Encounter 09/05/2026",
+      "name": "Enouncter ff gob",
       "defeated": false,
       "status": "prepared",
       "enemyCount": 6,
@@ -18,7 +18,7 @@
       ],
       "combatants": [
         {
-          "id": "9m1u9kgbmoyec742",
+          "id": "0xcuko90moyed43i",
           "npcId": "yl0vzhfjmou0f5ey",
           "instanceLabel": "A",
           "type": "boss",
@@ -43,7 +43,7 @@
           }
         },
         {
-          "id": "3slul9momoyec742",
+          "id": "13zt3gx5moyed43i",
           "npcId": "hctjogy7moul4tv7",
           "instanceLabel": "A",
           "type": "enemy",
@@ -77,7 +77,7 @@
           }
         },
         {
-          "id": "0mednm9tmoyec742",
+          "id": "atiw4sgtmoyed43i",
           "npcId": "hctjogy7moul4tv7",
           "instanceLabel": "B",
           "type": "enemy",
@@ -111,7 +111,7 @@
           }
         },
         {
-          "id": "gba14i5vmoyec742",
+          "id": "6j8hw4d9moyed43i",
           "npcId": "hctjogy7moul4tv7",
           "instanceLabel": "C",
           "type": "enemy",
@@ -145,7 +145,7 @@
           }
         },
         {
-          "id": "v6ugzh3lmoyec742",
+          "id": "3q9cb12nmoyed43i",
           "npcId": "hctjogy7moul4tv7",
           "instanceLabel": "D",
           "type": "enemy",
@@ -179,7 +179,7 @@
           }
         },
         {
-          "id": "c5c5txdjmoyec742",
+          "id": "nianrvs4moyed43i",
           "npcId": "hctjogy7moul4tv7",
           "instanceLabel": "E",
           "type": "enemy",
@@ -213,7 +213,7 @@
           }
         }
       ],
-      "updatedAt": "2026-05-09T13:45:19.874Z"
+      "updatedAt": "2026-05-09T13:46:02.622Z"
     }
   ]
 }
