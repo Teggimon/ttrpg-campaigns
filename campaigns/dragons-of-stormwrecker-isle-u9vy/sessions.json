@@ -13,123 +13,22 @@
           "encounterId": "piphiwmxmozde3pw",
           "name": "Encounter 10/05/2026",
           "number": 1,
-          "status": "live",
+          "status": "done",
           "rounds": 1,
           "enemyCount": 8,
           "combatants": [
             {
-              "id": "bcel4y1smozde3pw",
-              "npcId": "7ooa99o7mozdaodx",
-              "instanceLabel": "A",
-              "type": "enemy",
-              "name": "Goblin A",
-              "baseName": "Goblin",
-              "emoji": "ðº",
-              "hp": 7,
-              "hpMax": 7,
-              "initiativeMod": 2,
-              "ac": 15,
-              "attackBonus": null,
-              "saveDC": null,
-              "cr": "Â¼",
+              "id": "96b1633a-4187-4651-b676-e390fc64fac6",
+              "type": "player",
+              "name": "Thanos",
+              "emoji": "⚔️",
+              "hp": 10,
+              "hpMax": 19,
+              "initiative": 20,
+              "initiativeMod": 0,
+              "ac": 10,
               "conditions": [],
-              "downed": false,
-              "actions": [
-                {
-                  "name": "Scimitar",
-                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
-                },
-                {
-                  "name": "Shortbow",
-                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                }
-              ],
-              "traits": [],
-              "sourceNpc": {
-                "name": "Goblin",
-                "category": "standard",
-                "type": "humanoid",
-                "hitDie": "2d6"
-              },
-              "hpMode": "roll",
-              "hpValue": 7,
-              "hpFormula": "2d6"
-            },
-            {
-              "id": "clrly2wdmozde3pw",
-              "npcId": "7ooa99o7mozdaodx",
-              "instanceLabel": "B",
-              "type": "enemy",
-              "name": "Goblin B",
-              "baseName": "Goblin",
-              "emoji": "ðº",
-              "hp": 7,
-              "hpMax": 7,
-              "initiativeMod": 2,
-              "ac": 15,
-              "attackBonus": null,
-              "saveDC": null,
-              "cr": "Â¼",
-              "conditions": [],
-              "downed": false,
-              "actions": [
-                {
-                  "name": "Scimitar",
-                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
-                },
-                {
-                  "name": "Shortbow",
-                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                }
-              ],
-              "traits": [],
-              "sourceNpc": {
-                "name": "Goblin",
-                "category": "standard",
-                "type": "humanoid",
-                "hitDie": "2d6"
-              },
-              "hpMode": "roll",
-              "hpValue": 7,
-              "hpFormula": "2d6"
-            },
-            {
-              "id": "n2hl0z7zmozde3pw",
-              "npcId": "7ooa99o7mozdaodx",
-              "instanceLabel": "C",
-              "type": "enemy",
-              "name": "Goblin C",
-              "baseName": "Goblin",
-              "emoji": "ðº",
-              "hp": 7,
-              "hpMax": 7,
-              "initiativeMod": 2,
-              "ac": 15,
-              "attackBonus": null,
-              "saveDC": null,
-              "cr": "Â¼",
-              "conditions": [],
-              "downed": false,
-              "actions": [
-                {
-                  "name": "Scimitar",
-                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
-                },
-                {
-                  "name": "Shortbow",
-                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                }
-              ],
-              "traits": [],
-              "sourceNpc": {
-                "name": "Goblin",
-                "category": "standard",
-                "type": "humanoid",
-                "hitDie": "2d6"
-              },
-              "hpMode": "roll",
-              "hpValue": 7,
-              "hpFormula": "2d6"
+              "downed": false
             },
             {
               "id": "68oksqxumozde3pw",
@@ -139,15 +38,15 @@
               "name": "Goblin D",
               "baseName": "Goblin",
               "emoji": "ðº",
-              "hp": 7,
-              "hpMax": 7,
+              "hp": 0,
+              "hpMax": 10,
               "initiativeMod": 2,
               "ac": 15,
               "attackBonus": null,
               "saveDC": null,
               "cr": "Â¼",
               "conditions": [],
-              "downed": false,
+              "downed": true,
               "actions": [
                 {
                   "name": "Scimitar",
@@ -167,121 +66,8 @@
               },
               "hpMode": "roll",
               "hpValue": 7,
-              "hpFormula": "2d6"
-            },
-            {
-              "id": "vgjjq5fwmozde3pw",
-              "npcId": "7ooa99o7mozdaodx",
-              "instanceLabel": "E",
-              "type": "enemy",
-              "name": "Goblin E",
-              "baseName": "Goblin",
-              "emoji": "ðº",
-              "hp": 7,
-              "hpMax": 7,
-              "initiativeMod": 2,
-              "ac": 15,
-              "attackBonus": null,
-              "saveDC": null,
-              "cr": "Â¼",
-              "conditions": [],
-              "downed": false,
-              "actions": [
-                {
-                  "name": "Scimitar",
-                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
-                },
-                {
-                  "name": "Shortbow",
-                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                }
-              ],
-              "traits": [],
-              "sourceNpc": {
-                "name": "Goblin",
-                "category": "standard",
-                "type": "humanoid",
-                "hitDie": "2d6"
-              },
-              "hpMode": "roll",
-              "hpValue": 7,
-              "hpFormula": "2d6"
-            },
-            {
-              "id": "qe43lo1pmozde3pw",
-              "npcId": "8ue7xy9vmozdawmq",
-              "instanceLabel": "A",
-              "type": "enemy",
-              "name": "Skeleton A",
-              "baseName": "Skeleton",
-              "emoji": "ðº",
-              "hp": 13,
-              "hpMax": 13,
-              "initiativeMod": 2,
-              "ac": 13,
-              "attackBonus": null,
-              "saveDC": null,
-              "cr": "Â¼",
-              "conditions": [],
-              "downed": false,
-              "actions": [
-                {
-                  "name": "Shortsword",
-                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                },
-                {
-                  "name": "Shortbow",
-                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                }
-              ],
-              "traits": [],
-              "sourceNpc": {
-                "name": "Skeleton",
-                "category": "standard",
-                "type": "undead",
-                "hitDie": "2d8"
-              },
-              "hpMode": "roll",
-              "hpValue": 13,
-              "hpFormula": "2d8"
-            },
-            {
-              "id": "2klezjkkmozde3pw",
-              "npcId": "8ue7xy9vmozdawmq",
-              "instanceLabel": "B",
-              "type": "enemy",
-              "name": "Skeleton B",
-              "baseName": "Skeleton",
-              "emoji": "ðº",
-              "hp": 13,
-              "hpMax": 13,
-              "initiativeMod": 2,
-              "ac": 13,
-              "attackBonus": null,
-              "saveDC": null,
-              "cr": "Â¼",
-              "conditions": [],
-              "downed": false,
-              "actions": [
-                {
-                  "name": "Shortsword",
-                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                },
-                {
-                  "name": "Shortbow",
-                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-                }
-              ],
-              "traits": [],
-              "sourceNpc": {
-                "name": "Skeleton",
-                "category": "standard",
-                "type": "undead",
-                "hitDie": "2d8"
-              },
-              "hpMode": "roll",
-              "hpValue": 13,
-              "hpFormula": "2d8"
+              "hpFormula": "2d6",
+              "initiative": 17
             },
             {
               "id": "4q4qbs70mozde3pw",
@@ -291,15 +77,15 @@
               "name": "Skeleton C",
               "baseName": "Skeleton",
               "emoji": "ðº",
-              "hp": 13,
-              "hpMax": 13,
+              "hp": 0,
+              "hpMax": 10,
               "initiativeMod": 2,
               "ac": 13,
               "attackBonus": null,
               "saveDC": null,
               "cr": "Â¼",
               "conditions": [],
-              "downed": false,
+              "downed": true,
               "actions": [
                 {
                   "name": "Shortsword",
@@ -319,12 +105,273 @@
               },
               "hpMode": "roll",
               "hpValue": 13,
-              "hpFormula": "2d8"
+              "hpFormula": "2d8",
+              "initiative": 17
+            },
+            {
+              "id": "790c0104-bcf0-4e25-a436-e459a965340a",
+              "type": "player",
+              "name": "kk",
+              "emoji": "⚔️",
+              "hp": 23,
+              "hpMax": 23,
+              "initiative": 16,
+              "initiativeMod": 0,
+              "ac": 10,
+              "conditions": [],
+              "downed": false
+            },
+            {
+              "id": "bcel4y1smozde3pw",
+              "npcId": "7ooa99o7mozdaodx",
+              "instanceLabel": "A",
+              "type": "enemy",
+              "name": "Goblin A",
+              "baseName": "Goblin",
+              "emoji": "ðº",
+              "hp": 0,
+              "hpMax": 5,
+              "initiativeMod": 2,
+              "ac": 15,
+              "attackBonus": null,
+              "saveDC": null,
+              "cr": "Â¼",
+              "conditions": [],
+              "downed": true,
+              "actions": [
+                {
+                  "name": "Scimitar",
+                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+                },
+                {
+                  "name": "Shortbow",
+                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                }
+              ],
+              "traits": [],
+              "sourceNpc": {
+                "name": "Goblin",
+                "category": "standard",
+                "type": "humanoid",
+                "hitDie": "2d6"
+              },
+              "hpMode": "roll",
+              "hpValue": 7,
+              "hpFormula": "2d6",
+              "initiative": 11
+            },
+            {
+              "id": "qe43lo1pmozde3pw",
+              "npcId": "8ue7xy9vmozdawmq",
+              "instanceLabel": "A",
+              "type": "enemy",
+              "name": "Skeleton A",
+              "baseName": "Skeleton",
+              "emoji": "ðº",
+              "hp": 0,
+              "hpMax": 6,
+              "initiativeMod": 2,
+              "ac": 13,
+              "attackBonus": null,
+              "saveDC": null,
+              "cr": "Â¼",
+              "conditions": [],
+              "downed": true,
+              "actions": [
+                {
+                  "name": "Shortsword",
+                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                },
+                {
+                  "name": "Shortbow",
+                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                }
+              ],
+              "traits": [],
+              "sourceNpc": {
+                "name": "Skeleton",
+                "category": "standard",
+                "type": "undead",
+                "hitDie": "2d8"
+              },
+              "hpMode": "roll",
+              "hpValue": 13,
+              "hpFormula": "2d8",
+              "initiative": 11
+            },
+            {
+              "id": "vgjjq5fwmozde3pw",
+              "npcId": "7ooa99o7mozdaodx",
+              "instanceLabel": "E",
+              "type": "enemy",
+              "name": "Goblin E",
+              "baseName": "Goblin",
+              "emoji": "ðº",
+              "hp": 0,
+              "hpMax": 4,
+              "initiativeMod": 2,
+              "ac": 15,
+              "attackBonus": null,
+              "saveDC": null,
+              "cr": "Â¼",
+              "conditions": [],
+              "downed": true,
+              "actions": [
+                {
+                  "name": "Scimitar",
+                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+                },
+                {
+                  "name": "Shortbow",
+                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                }
+              ],
+              "traits": [],
+              "sourceNpc": {
+                "name": "Goblin",
+                "category": "standard",
+                "type": "humanoid",
+                "hitDie": "2d6"
+              },
+              "hpMode": "roll",
+              "hpValue": 7,
+              "hpFormula": "2d6",
+              "initiative": 7
+            },
+            {
+              "id": "2klezjkkmozde3pw",
+              "npcId": "8ue7xy9vmozdawmq",
+              "instanceLabel": "B",
+              "type": "enemy",
+              "name": "Skeleton B",
+              "baseName": "Skeleton",
+              "emoji": "ðº",
+              "hp": 0,
+              "hpMax": 10,
+              "initiativeMod": 2,
+              "ac": 13,
+              "attackBonus": null,
+              "saveDC": null,
+              "cr": "Â¼",
+              "conditions": [],
+              "downed": true,
+              "actions": [
+                {
+                  "name": "Shortsword",
+                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                },
+                {
+                  "name": "Shortbow",
+                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                }
+              ],
+              "traits": [],
+              "sourceNpc": {
+                "name": "Skeleton",
+                "category": "standard",
+                "type": "undead",
+                "hitDie": "2d8"
+              },
+              "hpMode": "roll",
+              "hpValue": 13,
+              "hpFormula": "2d8",
+              "initiative": 7
+            },
+            {
+              "id": "n2hl0z7zmozde3pw",
+              "npcId": "7ooa99o7mozdaodx",
+              "instanceLabel": "C",
+              "type": "enemy",
+              "name": "Goblin C",
+              "baseName": "Goblin",
+              "emoji": "ðº",
+              "hp": 0,
+              "hpMax": 7,
+              "initiativeMod": 2,
+              "ac": 15,
+              "attackBonus": null,
+              "saveDC": null,
+              "cr": "Â¼",
+              "conditions": [],
+              "downed": true,
+              "actions": [
+                {
+                  "name": "Scimitar",
+                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+                },
+                {
+                  "name": "Shortbow",
+                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                }
+              ],
+              "traits": [],
+              "sourceNpc": {
+                "name": "Goblin",
+                "category": "standard",
+                "type": "humanoid",
+                "hitDie": "2d6"
+              },
+              "hpMode": "roll",
+              "hpValue": 7,
+              "hpFormula": "2d6",
+              "initiative": 6
+            },
+            {
+              "id": "clrly2wdmozde3pw",
+              "npcId": "7ooa99o7mozdaodx",
+              "instanceLabel": "B",
+              "type": "enemy",
+              "name": "Goblin B",
+              "baseName": "Goblin",
+              "emoji": "ðº",
+              "hp": 0,
+              "hpMax": 8,
+              "initiativeMod": 2,
+              "ac": 15,
+              "attackBonus": null,
+              "saveDC": null,
+              "cr": "Â¼",
+              "conditions": [],
+              "downed": true,
+              "actions": [
+                {
+                  "name": "Scimitar",
+                  "note": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+                },
+                {
+                  "name": "Shortbow",
+                  "note": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+                }
+              ],
+              "traits": [],
+              "sourceNpc": {
+                "name": "Goblin",
+                "category": "standard",
+                "type": "humanoid",
+                "hitDie": "2d6"
+              },
+              "hpMode": "roll",
+              "hpValue": 7,
+              "hpFormula": "2d6",
+              "initiative": 5
+            },
+            {
+              "id": "a643924f-e4ca-40a1-b73a-a2fc97e4bffd",
+              "type": "player",
+              "name": "Risa",
+              "emoji": "⚔️",
+              "hp": 46,
+              "hpMax": 46,
+              "initiative": 1,
+              "initiativeMod": 0,
+              "ac": 10,
+              "conditions": [],
+              "downed": false
             }
           ],
           "preparedEncounterId": "sfgg3apomozdcxk8",
-          "defeated": false,
-          "outcome": null
+          "defeated": true,
+          "outcome": "victory"
         }
       ]
     }
