@@ -1,0 +1,39 @@
+{
+  "players": [
+    {
+      "github": "teggimon",
+      "characters": [
+        {
+          "characterId": "790c0104-bcf0-4e25-a436-e459a965340a",
+          "name": "kk",
+          "class": "Paladin 3",
+          "level": 3,
+          "hpCurrent": 23,
+          "hpMax": 23,
+          "active": true,
+          "inCampaign": true
+        },
+        {
+          "characterId": "a643924f-e4ca-40a1-b73a-a2fc97e4bffd",
+          "name": "Risa",
+          "class": "Cleric 2",
+          "level": 2,
+          "hpCurrent": 46,
+          "hpMax": 46,
+          "active": true,
+          "inCampaign": true
+        },
+        {
+          "characterId": "96b1633a-4187-4651-b676-e390fc64fac6",
+          "name": "Thanos",
+          "class": "Fighter 1",
+          "level": 1,
+          "hpCurrent": 10,
+          "hpMax": 19,
+          "active": true,
+          "inCampaign": true
+        }
+      ]
+    }
+  ]
+}
