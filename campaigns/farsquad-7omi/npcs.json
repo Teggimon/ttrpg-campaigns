@@ -19,7 +19,7 @@
       "npcId": "hctjogy7moul4tv7",
       "name": "Goblin",
       "type": "humanoid",
-      "cr": "Â¼",
+      "cr": "ÃÂ¼",
       "hp": 7,
       "ac": 15,
       "initiative": 2,
@@ -49,27 +49,6 @@
         {
           "name": "Pseudopod",
           "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 3 (1d6) acid damage."
-        }
-      ],
-      "source": "srd"
-    },
-    {
-      "npcId": "tapr2qcimoyhhixp",
-      "name": "Goblin",
-      "type": "humanoid",
-      "cr": "¼",
-      "hp": 7,
-      "ac": 15,
-      "initiative": 2,
-      "category": "standard",
-      "actions": [
-        {
-          "name": "Scimitar",
-          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
-        },
-        {
-          "name": "Shortbow",
-          "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
         }
       ],
       "source": "srd"
