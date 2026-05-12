@@ -31,6 +31,33 @@
         }
       ],
       "source": "srd"
+    },
+    {
+      "npcId": "535s4jq7mp1zv7ib",
+      "name": "Goblin",
+      "type": "humanoid",
+      "cr": "1/4",
+      "hp": 7,
+      "hitDie": "2d6",
+      "ac": 15,
+      "initiative": 2,
+      "category": "standard",
+      "actions": [
+        {
+          "name": "Scimitar",
+          "desc": [
+            "mw 4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+          ]
+        },
+        {
+          "name": "Shortbow",
+          "desc": [
+            "rw 4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+          ]
+        }
+      ],
+      "source": "srd",
+      "sourceBook": "MM"
     }
   ]
 }
